@@ -1,9 +1,9 @@
-package com.my.java.service;
+package com.my.hr.service;
 
 import java.time.LocalDate;
 import java.util.List;
 
-import com.my.java.domain.Laborer;
+import com.my.hr.domain.Laborer;
 
 public interface LaborerService {
 	List<Laborer> getLaborers();

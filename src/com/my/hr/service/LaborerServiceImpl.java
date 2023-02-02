@@ -1,11 +1,11 @@
-package com.my.java.service;
+package com.my.hr.service;
 
 import java.time.LocalDate;
 import java.util.List;
 
-import com.my.java.dao.LaborerDao;
-import com.my.java.domain.Laborer;
-import com.my.java.domain.NoneException;
+import com.my.hr.dao.LaborerDao;
+import com.my.hr.domain.Laborer;
+import com.my.hr.domain.NoneException;
 
 public class LaborerServiceImpl implements LaborerService {
 	private LaborerDao laborerDao;
