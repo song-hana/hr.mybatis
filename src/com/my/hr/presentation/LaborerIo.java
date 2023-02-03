@@ -52,7 +52,7 @@ public class LaborerIo {
 		if(laborers.size() > 0) laborers.forEach(Console::info);
 		else Console.info("노동자가 없습니다.");
 	}
-	
+
 	private void addLaborer() {
 		String laborerName = Console.inStr("노동자명을 입력하세요.", 5);
 		

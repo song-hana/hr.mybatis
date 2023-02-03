@@ -10,7 +10,7 @@ import com.my.hr.domain.NoneException;
 
 public class LaborerDaoImpl implements LaborerDao {
 	private LaborerMap laborerMap;
-	
+
 	public LaborerDaoImpl() {
 		this.laborerMap = Configuration.getMapper(LaborerMap.class);
 	}

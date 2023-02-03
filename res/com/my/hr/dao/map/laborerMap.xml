@@ -7,7 +7,7 @@
 		from laborers
 		order by laborer_id
 	</select>
-	
+
 	<resultMap id='laborerMap' type='laborer'>
 		<id property='laborerId' column='laborer_id'/>
 		<result property='laborerName' column='laborer_name'/>

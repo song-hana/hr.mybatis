@@ -9,7 +9,7 @@ import com.my.hr.domain.NoneException;
 
 public class LaborerServiceImpl implements LaborerService {
 	private LaborerDao laborerDao;
-	
+
 	public LaborerServiceImpl(LaborerDao laborerDao) {
 		this.laborerDao = laborerDao;
 	}

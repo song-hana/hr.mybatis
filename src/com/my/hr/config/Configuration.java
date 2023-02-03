@@ -8,7 +8,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class Configuration {
 	private static SqlSessionFactory sqlSessionFactory;
-	
+
 	static {
 		try {
 			Reader reader = Resources.getResourceAsReader("com/my/hr/config/sqlMapConfig.xml");
